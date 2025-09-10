@@ -1,4 +1,4 @@
-AI-Powered Text to Image Generator
+AI-Powered Text to Image Generator <br>
 Project Overview
 Our AI-powered Text-to-Image Generator is a cutting-edge tool that transforms your imagination into reality. Simply describe your vision in words, and our intelligent engine instantly transforms it into a high-quality, visually stunning image.
 
@@ -46,3 +46,38 @@ Prerequisites
 Node.js installed on your machine.
 
 MongoDB instance running (local or cloud-based).
+
+Installation
+Clone the repository:
+
+Bash
+
+git clone <repository_url>
+Navigate to the client directory and install dependencies:
+
+Bash
+
+cd client
+npm install
+Navigate to the server directory and install dependencies:
+
+Bash
+
+cd ../server
+npm install
+Running the Application
+Start the backend server:
+
+Bash
+
+cd server
+npm run server
+The server will run on http://localhost:5000 (or the port specified in your .env file).
+
+Open a new terminal, navigate to the client directory, and start the frontend:
+
+Bash
+
+cd client
+npm run dev
+The frontend will be accessible at http://localhost:5173 (or the port specified by Vite).
