@@ -35,8 +35,16 @@ const Navbar = () => {
                 alt=""
               />
               <div className="absolute hidden group-hover:block top-0 right-0 z-10 text-black rounded pt-12">
-                <ul className="list-none n-0 p-2 bg-white rounded-medium border text-sm ">
-                  <li onClick={logout} className=" py-1 px-2 cursor-pointer pr-10">Logout</li>
+                <ul className="list-none n-0 p-0 h-8 bg-white rounded-full border text-sm ">
+                  {/* <li onClick={logout} className=" py-1 px-2 cursor-pointer pr-10">Logout</li> */}
+                  <li className="py-1 px-2 cursor-pointer">
+  <button 
+    onClick={logout} 
+    className=" bg-white text-gray-600 px-5 py-0 text-sm rounded-full transition cursor-pointer"
+  >
+    Logout
+  </button>
+</li>
                 </ul>
               </div>
             </div>

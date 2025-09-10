@@ -63,7 +63,7 @@ const onClickHandler =()=>{
         <img className="w-7" src={assets.star_group} alt="" />
       </motion.button>
 
-      <motion.div className="flex flex-wrap justify-center mt-12 gap-3"
+      {/* <motion.div className="flex flex-wrap justify-center mt-12 gap-3"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
        transition={{delay:1, duration: 1}}
@@ -80,13 +80,13 @@ const onClickHandler =()=>{
               width={70}
             />
           ))}
-      </motion.div>
+      </motion.div> */}
 
-      <motion.p 
+      {/* <motion.p 
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
        transition={{delay:1.2, duration: 0.8}}
-      className="mt-2 text-neutral-600">Made with Lumeo Magic</motion.p>
+      className="mt-2 text-neutral-600">Made with Lumeo Magic</motion.p> */}
     </motion.div>
   );
 };
