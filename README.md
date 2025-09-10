@@ -23,7 +23,7 @@
             <li><strong>JWT (JSON Web Token):</strong> Used for secure user authentication and authorization.</li>
             <li><strong>CORS:</strong> Enables Cross-Origin Resource Sharing, allowing the frontend to communicate with the backend.</li>
             <li><strong>Nodemon:</strong> Automatically restarts the server during development, improving workflow efficiency.</li>
-            <li><strong>Razorpay:</strong> A secure payment gateway for handling transactions.</li>
+<!--             <li><strong>Razorpay:</strong> A secure payment gateway for handling transactions.</li> -->
             <li><strong>Dotenv:</strong> Manages environment variables, keeping sensitive information secure.</li>
         </ul>
         <hr class="section-divider">
