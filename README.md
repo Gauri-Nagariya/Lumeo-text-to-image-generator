@@ -2,7 +2,7 @@
         <h2>Project Overview</h2>
         <p>Our AI-powered Text-to-Image Generator is a cutting-edge tool that transforms your imagination into reality. Simply describe your vision in words, and our intelligent engine instantly transforms it into a high-quality, visually stunning image.</p>
         <p>This application is perfect for designers, creators, or anyone looking to explore their creativity. It requires no design skills—just type your idea, watch the magic happen, and download or share your masterpiece in seconds.</p>
-         <a href="https://lumeo-text-to-image-generator-rclt.vercel.app/" class="live-link" target="_blank">View Live Demo</a>
+         <a href="https://lumeo-text-to-image-generator.vercel.app/" class="live-link" target="_blank">View Live Demo</a>
         <hr class="section-divider">
         <h2>Technology Stack</h2>
         <p>This project is built using a modern and robust technology stack, separating the frontend and backend for a scalable and maintainable architecture.</p>
