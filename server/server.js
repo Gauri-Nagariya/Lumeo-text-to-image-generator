@@ -11,7 +11,7 @@ const app = express()
 app.use(express.json())
 // app.use(cors())
 app.use(cors({
-  origin: 'https://lumeo-text-to-image-generator.vercel.app/', // replace with your actual frontend URL
+  origin: 'https://lumeo-text-to-image-generator.vercel.app', // replace with your actual frontend URL
   credentials: true,
 }));
 await connectDB()
