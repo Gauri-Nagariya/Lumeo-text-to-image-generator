@@ -39,7 +39,8 @@
         <p>1. <strong>Clone the repository:</strong></p>
         <pre><code>git clone https://github.com/Gauri-Nagariya/Lumeo-text-to-image-generator.git</code></pre>
         <p>2. <strong>Navigate to the client directory and install dependencies:</strong></p>
-        <pre><code>cd client<br>npm install</code></pre>
+        <pre><code>cd client<br> 
+             npm install</code></pre>
         <p>3. <strong>Navigate to the server directory and install dependencies:</strong></p>
         <pre><code>cd ../server<br>npm install</code></pre>
         <h3>Running the Application</h3>
