@@ -39,14 +39,17 @@
         <p>1. <strong>Clone the repository:</strong></p>
         <pre><code>git clone https://github.com/Gauri-Nagariya/Lumeo-text-to-image-generator.git</code></pre>
         <p>2. <strong>Navigate to the client directory and install dependencies:</strong></p>
-        <pre><code>cd client<br> 
-             npm install</code></pre>
+        <pre><code>cd client<br>
+npm install</code></pre>
         <p>3. <strong>Navigate to the server directory and install dependencies:</strong></p>
-        <pre><code>cd ../server<br>npm install</code></pre>
+        <pre><code>cd ../server<br>
+npm install</code></pre>
         <h3>Running the Application</h3>
         <p>1. <strong>Start the backend server:</strong></p>
-        <pre><code>cd server<br>npm run server</code></pre>
+        <pre><code>cd server<br>
+npm run server</code></pre>
         <p>The server will run on <code>http://localhost:5000</code> (or the port specified in your <code>.env</code> file).</p>
         <p>2. <strong>Open a new terminal, navigate to the client directory, and start the frontend:</strong></p>
-        <pre><code>cd client<br>npm run dev</code></pre>
+        <pre><code>cd client<br>
+npm run dev</code></pre>
         <p>The frontend will be accessible at <code>http://localhost:5173</code> (or the port specified by Vite).</p>
