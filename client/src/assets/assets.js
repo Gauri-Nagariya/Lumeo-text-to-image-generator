@@ -8,7 +8,7 @@ import sample_img_2 from './sample_img_2.png'
 import step_icon_1 from './step_icon_1.png'
 import step_icon_2 from './step_icon_2.png'
 import step_icon_3 from './step_icon_3.png'
-import profile_img_1 from './profile_img_1.jpg'
+import profile_img_1 from './user_icon.png'
 import rating_star from './rating_star.png'
 import facebook_icon from './facebook_icon.png'
 import instagram_icon from './instagram_icon.png'
@@ -102,7 +102,7 @@ export const plans = [
         desc: 'Best for business use.'
     },
     {
-        id: 'business',
+        id: 'Business',
         price: 250,
         credits: 5000,
         desc: 'Best for enterprise use.'

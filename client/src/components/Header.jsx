@@ -39,7 +39,7 @@ const onClickHandler =()=>{
       transition={{delay:0.4, duration: 2}}
       >
         Bring your ideas to<br />
-        <span className="text-purple-500">life</span>, instantly.
+        <span className="text-purple-700">life</span>, instantly.
       </motion.h1>
 
       <motion.p className="text-center max-w-xl mx-auto mt-5"

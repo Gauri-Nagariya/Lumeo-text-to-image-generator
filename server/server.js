@@ -17,6 +17,6 @@ await connectDB()
 
 app.use('/api/user', userRouter)
 app.use('/api/image', imageRouter)
-app.get('/', (req, res)=> res.send("API working"))
+app.get('/', (req, res)=> res.send("API is working fine!"))
 
 app.listen(PORT, ()=> console.log("server running on port "+ PORT));
