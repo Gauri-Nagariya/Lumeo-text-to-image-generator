@@ -24,15 +24,15 @@ const onClickHandler =()=>{
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
     >
-      <motion.div
+      {/* <motion.div
         className="text-stone-500 inline-flex text-center gap-2 bg-white justify-center w-80 px-6 py-1 rounded-full border border-neutral-500"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{delay:0.2, duration: 0.8}}
        >
         <p>Welcome to Lumeo</p>
+      </motion.div> */}
         {/* <img className="w-6" src={assets.star_icon} alt="" /> */}
-      </motion.div>
       <motion.h1 className="text-4xl max-w-[300px] sm:text-7xl sm:max-w-[590px] mx-auto mt-10 text-center"
       initial={{ opacity: 0}}
       animate={{ opacity: 1}}
