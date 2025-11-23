@@ -3,7 +3,7 @@ import Header from '../components/Header'
 import Steps from '../components/Steps'
 import Description from '../components/Description'
 // import Testimonial from '../components/Testimonial'
-// import GenerateButton from '../components/GenerateButton'
+import GenerateButton from '../components/GenerateButton'
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
       <Steps/>
       <Description/>
       {/* <Testimonial/> */}
-      {/* <GenerateButton/> */}
+     <GenerateButton/> 
     </div>
   )
 }
