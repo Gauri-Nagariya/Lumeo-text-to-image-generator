@@ -10,10 +10,28 @@ const app = express()
 
 app.use(express.json())
 // app.use(cors())
+// app.use(cors({
+//   origin: 'https://lumeo-text-to-image-generator.vercel.app', // replace with your actual frontend URL
+//   credentials: true,
+// }));
+
+const allowedOrigins = [
+  "http://localhost:3000", // for local dev
+  "https://lumeo-text-to-image-generator.vercel.app" // deployed frontend
+];
+
 app.use(cors({
-  origin: 'https://lumeo-text-to-image-generator.vercel.app', // replace with your actual frontend URL
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS: " + origin));
+    }
+  },
   credentials: true,
 }));
+
+
 await connectDB()
 
 

@@ -4,8 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { AppContext } from "../context/AppContext";
 
 const Navbar = () => {
-
- const {user, setShowLogin, logout, credit} = useContext(AppContext)
+  const { user, setShowLogin, logout, credit } = useContext(AppContext);
   const navigate = useNavigate();
   return (
     <div className="flex items-center justify-between py-4">
@@ -21,7 +20,10 @@ const Navbar = () => {
         {/* ternery operator - if else */}
         {user ? (
           <div className="flex items-center gap-2 sm:gap-3">
-            <button onClick={()=> navigate('/buy ')} className="flex items-center gap-2 bg-blue-100 px-4 sm:px-6 py-1.5 sm:py-3 rounded-full hover:scale-105 transition-all duration-700">
+            <button
+              onClick={() => navigate("/buy ")}
+              className="flex items-center gap-2 bg-blue-100 px-4 sm:px-6 py-1.5 sm:py-3 rounded-full hover:scale-105 transition-all duration-700"
+            >
               <img className="w-5" src={assets.credit_star} alt="" />
               <p className="text-xs sm:text-sm font-medium text-gray-600">
                 Credits left : {credit}
@@ -38,13 +40,13 @@ const Navbar = () => {
                 <ul className="list-none n-0 p-0 h-8 bg-white rounded-full border text-sm ">
                   {/* <li onClick={logout} className=" py-1 px-2 cursor-pointer pr-10">Logout</li> */}
                   <li className="py-1 px-2 cursor-pointer">
-  <button 
-    onClick={logout} 
-    className=" bg-white text-gray-600 px-5 py-0 text-sm rounded-full transition cursor-pointer"
-  >
-    Logout
-  </button>
-</li>
+                    <button
+                      onClick={logout}
+                      className=" bg-white text-gray-600 px-5 py-0 text-sm rounded-full transition cursor-pointer"
+                    >
+                      Logout
+                    </button>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -54,7 +56,7 @@ const Navbar = () => {
             <p onClick={() => navigate("/buy")} className="cursor-pointer">
               Pricing
             </p>
-            <button onClick={()=>setShowLogin(true)} className="cursor-pointer bg-zinc-800 text-white px-7 py-2 sm:px-10 sm:py-2.5 text-sm rounded-full">
+            <button onClick={()=>setShowLogin(true)} className="cursor-pointer bg-zinc-800 text-white px-7 py-7 sm:px-10 sm:py-2.5 text-sm rounded-full">
               login
             </button>
           </div>
@@ -65,6 +67,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
-
